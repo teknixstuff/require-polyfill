@@ -7,7 +7,7 @@ This simple script is inspired by [require1k](http://stuk.github.io/require1k/),
 Drop it into a script tag like so:
 
 ```js
-<script src="./path/to/require_polyfill.js" data-main="./path/to/entry/file" data-project-root="./"></script>
+<script src="https://raw.githubusercontent.com/teknixstuff/require-polyfill/master/require_polyfill.js"></script>
 ```
 
 Where `data-project-root` is where `node_modules` is located.

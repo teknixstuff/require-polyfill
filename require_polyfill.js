@@ -45,11 +45,7 @@ function pathNormalize(path) {
 
 var globalEval = eval;
 var currentScript = document.currentScript;
-var projectRoot = currentScript.dataset['project-root'] || currentScript.dataset['projectRoot'];
-if (projectRoot == null) {
-  throw new Error('The attribute `data-project-root` isn\'t found in the script tag. You need to provide the root (in which node_modules reside).')
-}
-var nodeModulesDir = projectRoot + '/node_modules/';
+var nodeModulesDir = 'https://unpkg.com/';
 
 var modulesCache = {};
 var packageJsonMainCache = {};

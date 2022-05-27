@@ -10,8 +10,6 @@ Drop it into a script tag like so:
 <script src="https://raw.githubusercontent.com/teknixstuff/require-polyfill/master/require_polyfill.js"></script>
 ```
 
-Where `data-project-root` is where `node_modules` is located.
-
 Tada! All your js files' `require` statements will work! No watcher, no code bundling, no hassle.
 
 **Note**: This is only meant to be used as a development time convenience.

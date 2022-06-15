@@ -7,7 +7,7 @@ This simple script is inspired by [require1k](http://stuk.github.io/require1k/),
 Drop it into a script tag like so:
 
 ```js
-<script src="https://raw.githubusercontent.com/teknixstuff/require-polyfill/master/require_polyfill.js"></script>
+<script src="https://rawcdn.githack.com/teknixstuff/require-polyfill/d4abfadedc042579b02834cff2bd5a60c00b956a/require_polyfill.js"></script>
 ```
 
 Tada! All your js files' `require` statements will work! No watcher, no code bundling, no hassle.
